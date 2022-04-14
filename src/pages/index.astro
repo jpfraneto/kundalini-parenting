@@ -1,6 +1,4 @@
 ---
-import {Content as TourContent} from '../content/Tour.md';
-import Logo from '../components/Logo.astro';
 import '../styles/global.css';
 import '../styles/home.css';
 
@@ -9,7 +7,7 @@ import '../styles/home.css';
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
-let title = 'My Astro Site';
+let title = 'Papás Kundalini';
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -22,7 +20,7 @@ let title = 'My Astro Site';
 
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-	<style>
+	<!-- <style>
 		header {
 			display: flex;
 			flex-direction: column;
@@ -50,34 +48,19 @@ let title = 'My Astro Site';
 		pre {
 			padding: 1rem;
 		}
-	</style>
+	</style> -->
 </head>
 <body>
 	<main>
 		<header>
 			<div>
-				<Logo width={60} height={80} />
-				<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
 			</div>
 		</header>
-
-		<article>
-			<div class="banner">
-				<p><strong>🧑‍🚀 Seasoned astronaut?</strong> Delete this template and have fun!</p>
-			</div>
-			<TourContent />
+		<nav><a></a></nav>
+		<article class="">
+			<h2>Aloja!</h2>
+			<p>Verificando el deploy</p>
 		</article>
-
-		<!--
-
-		You can also use imported framework components directly in your markup!
-		
-		Note: by default, these components are NOT interactive on the client.
-		The `client:visible` directive tells Astro to make it interactive.
-		
-		See https://docs.astro.build/core-concepts/component-hydration/ 
-
-		-->
 
 	</main>
 </body>
